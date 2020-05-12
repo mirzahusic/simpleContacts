@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.editContact.EditContactController"
+            prefHeight="200.0" prefWidth="400.0">
+
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label text="First Name:" GridPane.rowIndex="0" GridPane.columnIndex="0"></Label>
+            <TextField fx:id="firstNameTextFiled" GridPane.rowIndex="0" GridPane.columnIndex="1"></TextField>
+            <Label text="Last Name:" GridPane.rowIndex="1" GridPane.columnIndex="0"></Label>
+            <TextField fx:id="lastNameTextField" GridPane.rowIndex="1" GridPane.columnIndex="1"></TextField>
+            <Label text="Phone Number:" GridPane.rowIndex="2" GridPane.columnIndex="0"></Label>
+            <TextField fx:id="phoneNumberTextFiled" GridPane.rowIndex="2" GridPane.columnIndex="1"></TextField>
+            <Label text="Email: " GridPane.rowIndex="3" GridPane.columnIndex="0"></Label>
+            <TextField fx:id="emailTextFiled" GridPane.rowIndex="3" GridPane.columnIndex="1"></TextField>
+        </GridPane>
+    </content>
+
+</DialogPane>
